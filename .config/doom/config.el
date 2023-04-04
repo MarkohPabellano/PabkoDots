@@ -124,6 +124,7 @@
         ;;org-superstar-headline-bullets-list '("◉" "●" "○" "◆" "●" "○" "◆")
         org-superstar-itembullet-alist '((?+ . ?➤) (?- . ?✦)) ; changes +/- symbols in item lists
         org-log-done 'time
+        org-startup-folded t
         org-hide-emphasis-markers t
         org-return-follows-link t
         org-deadline-warning-days 30
