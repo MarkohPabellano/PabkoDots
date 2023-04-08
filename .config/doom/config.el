@@ -9,27 +9,32 @@
 
 (setq bookmark-default-file "~/.config/doom/bookmarks")
 
-(setq doom-theme 'doom-gruvbox-light)
+(setq doom-theme 'doom-lantern)
 (map! :leader
       :desc "Load new theme" "h t" #'load-theme)
 
 (add-hook 'after-init-hook #'marks/org-colors-gruvbox-light)
+
+;; Tab Bar Settings
+(setq tab-bar-new-tab-choice "*doom*")
+
+
 ;; Centaur Tabs
 
-(setq centaur-tabs-set-bar 'over
-      centaur-tabs-set-icons t
-      centaur-tabs-gray-out-icons 'buffer
-      centaur-tabs-height 24
-      centaur-tabs-set-modified-marker t
-      centaur-tabs-style "bar"
-      centaur-tabs-modified-marker "•")
-(map! :leader
-      :desc "Toggle tabs globally" "t c" #'centaur-tabs-mode
-      :desc "Toggle tabs local display" "t C" #'centaur-tabs-local-mode)
-(evil-define-key 'normal centaur-tabs-mode-map (kbd "g <right>") 'centaur-tabs-forward        ; default Doom binding is 'g t'
-                                               (kbd "g <left>")  'centaur-tabs-backward       ; default Doom binding is 'g T'
-                                               (kbd "g <down>")  'centaur-tabs-forward-group
-                                               (kbd "g <up>")    'centaur-tabs-backward-group)
+;; (setq centaur-tabs-set-bar 'left
+;;       centaur-tabs-set-icons t
+;;       centaur-tabs-gray-out-icons 'buffer
+;;      centaur-tabs-height 24
+;;      centaur-tabs-set-modified-marker t
+;;      centaur-tabs-style "bar"
+;;      centaur-tabs-modified-marker "•")
+;; (map! :leader
+;;      :desc "Toggle tabs globally" "t c" #'centaur-tabs-mode
+;;      :desc "Toggle tabs local display" "t C" #'centaur-tabs-local-mode)
+;; (evil-define-key 'normal centaur-tabs-mode-map (kbd "g <right>") 'centaur-tabs-forward        ; default Doom binding is 'g t'
+;;                                               (kbd "g <left>")  'centaur-tabs-backward       ; default Doom binding is 'g T'
+;;                                               (kbd "g <down>")  'centaur-tabs-forward-group
+;;                                              (kbd "g <up>")    'centaur-tabs-backward-group)
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
