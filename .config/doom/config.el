@@ -210,6 +210,7 @@
   (setq org-roam-directory "~/org/roam"
        ;;org-roam-graph-viewer "/usr/bin/brave"
         org-roam-completion-everywhere t
+        org-roam-db-autosync-mode t
         org-roam-capture-templates
                 '(
                   ("d" "default" plain "%?"
