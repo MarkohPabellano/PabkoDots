@@ -219,7 +219,6 @@
                        r:unnarrowed t)
                   )))
 
-
 (defun org-roam-node-insert-immediate (arg &rest args)
   (interactive "P")
   (let ((args (cons arg args))
