@@ -5,8 +5,8 @@
 
 ~/.fehbg &
 copyq &
-/usr/bin/emacs --daemon &
-emacsclient -c -a emacs &
+#/usr/bin/emacs --daemon &
+#emacsclient -c -a emacs &
 megasync &
 syncthing &
 nm-applet &
