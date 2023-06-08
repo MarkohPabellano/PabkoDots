@@ -30,7 +30,7 @@ alias lla='ls -la'
 alias lt='ls --tree'
 
 #--Software Maanagement Maintainance--#
-alias update='paru -Syu --noconfirm & flatpak update'             # update standard pkgs and AUR pkgs (paru)
+alias update='paru -Syu --noconfirm && flatpak update'             # update standard pkgs and AUR pkgs (paru)
 alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
 alias refresh='sudo pacman -Syy'                 # refresh all of the pacman databases
