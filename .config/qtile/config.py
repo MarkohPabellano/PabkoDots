@@ -35,7 +35,7 @@ keys = [
     Key([mod],"space", lazy.layout.next(), desc="Move window focus to other window"),
 
     # Applications
-    Key([mod], "r", lazy.spawn("rofi -show combi"), desc="spawn rofi"),
+    Key([mod], "r", lazy.spawn("rofi -show drun"), desc="spawn rofi"),
     Key([mod], "period", lazy.spawn("rofi -modi emoji -show emoji"), desc="spawn rofi"),
     Key([alt], "s", lazy.spawn("flameshot gui"), desc="Open flameshot gui"),
     Key([alt], "period", lazy.spawn("/home/marks/.config/rofi/powermenu/type-1/powermenu.sh"), desc="powermenu"),
