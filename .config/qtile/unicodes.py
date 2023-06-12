@@ -1,7 +1,6 @@
 from typing import Optional
 from libqtile.widget.textbox import TextBox
 
-
 def left_half_circle(fg_color):
     return TextBox(
         text='\uE0B6',
@@ -25,7 +24,6 @@ def right_powerline_pua(fg_color, bg_color: Optional['str'] = None):
         foreground=fg_color,
         padding=4)
 
-
 def lower_left_triangle(bg_color, fg_color):
     return TextBox(
         text='\u25e2',
@@ -34,7 +32,6 @@ def lower_left_triangle(bg_color, fg_color):
         background=bg_color,
         foreground=fg_color)
 
-
 def left_arrow(bg_color, fg_color):
     return TextBox(
         text='\uE0B2',
@@ -42,7 +39,6 @@ def left_arrow(bg_color, fg_color):
         fontsize=24,
         background=bg_color,
         foreground=fg_color)
-
 
 def right_arrow(bg_color, fg_color):
     return TextBox(
