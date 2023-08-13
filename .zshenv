@@ -8,7 +8,7 @@ source ~/.config/zsh/.zshrc
 
 
 # Cool Programs to Start when opening a Terminal
-pokemon-colorscripts -r
+#pokemon-colorscripts -r
 #--Shell Colorscripts--#
 # Get this script from my GitLab: gitlab.com/dwt1/shell-color-scripts
 # Or install it from the Arch User Repository: shell-color-scripts
@@ -17,7 +17,7 @@ pokemon-colorscripts -r
 #eval "$(starship init bash)"
 #--Fetch Programs --
 #~/.local/bin/./fm6000 -r -de dwm
-#neofetch
+neofetch
 #--Quotes--#
 #fortune
 #--Pokemon Spawn in Terminal hehe--#s
