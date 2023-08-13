@@ -14,9 +14,13 @@ HISTFILE=~/.config/zsh/.zsh_history
 setopt SHARE_HISTORY
 
 #--PLUGINS--#
+# link: https://github.com/zsh-users/zsh-syntax-highlighting.git
 source ~/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 
+# link: https://github.com/zsh-users/zsh-autosuggestions
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh 
+# https://github.com/zsh-users/zsh-history-substring-search.git
 source ~/.config/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh 
+
 #source ~/.config/zsh/zsh-auto-notify/auto-notify.plugin.zsh
 #source ~/.config/zsh/you-should-use/you-should-use.plugin.zsh
 
