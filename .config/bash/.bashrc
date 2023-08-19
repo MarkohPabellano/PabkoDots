@@ -5,12 +5,14 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-#--Easy Stuff--#
+#--EXPORTS--#
+export BROWSER='brave-browser'
+export LESSHISTFILE=-
+export HISTFILE="$HOME/.config/bash/.bash_history"
 export EDITOR='nvim'
 export VISUAL='nvim'
 export TERMINAL='kitty'
-export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.config/emacs/bin:$PATH"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.config/emacs/bin"
 
 #--PROMPT--#
 #PS1='[\u@\h \W]\$ '
@@ -18,6 +20,36 @@ eval "$(starship init bash)"
 
 #--Progams--#
 eval "$(zellij setup --generate-auto-start zsh)"
+
+#--HISTFILE--
+HISTSIZE=10000
+#SAVEHIST=10000
+
+###---------- ARCHIVE EXTRACT ----------###
+
+ex() {
+	if [ -f $1 ]; then
+		case $1 in
+		*.tar.bz2) tar xjf $1 ;;
+		*.tar.gz) tar xzf $1 ;;
+		*.bz2) bunzip2 $1 ;;
+		*.rar) unrar x $1 ;;
+		*.gz) gunzip $1 ;;
+		*.tar) tar xf $1 ;;
+		*.tbz2) tar xjf $1 ;;
+		*.tgz) tar xzf $1 ;;
+		*.zip) unzip $1 ;;
+		*.Z) uncompress $1 ;;
+		*.7z) 7za e x $1 ;;
+		*.deb) ar x $1 ;;
+		*.tar.xz) tar xf $1 ;;
+		*.tar.zst) unzstd $1 ;;
+		*) echo "'$1' cannot be extracted via ex()" ;;
+		esac
+	else
+		echo "'$1' is not a valid file"
+	fi
+}
 
 #--ALIASES--#
 
@@ -30,7 +62,6 @@ alias emacs="emacsclient -c -a 'emacs'"
 #alias doomdoctor="~/.config/emacs/bin/doom doctor"
 #alias doomupgrade="~/.config/emacs/bin/doom upgrade"
 #alias doompurge="~/.config/emacs/bin/doom purge"
-
 
 #--hibernate, logout, and shutdown--#
 #alias hi='systemctl suspend-then-hibernate'
@@ -51,10 +82,10 @@ alias lla='ls -la'
 alias lt='ls --tree'
 
 #--Software Maanagement Maintainance--#
-alias update='paru -Syu --noconfirm && flatpak update'             # update standard pkgs and AUR pkgs (paru)
-alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
-alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
-alias refresh='sudo pacman -Syy'                 # refresh all of the pacman databases
+alias update='paru -Syu --noconfirm && flatpak update' # update standard pkgs and AUR pkgs (paru)
+alias unlock='sudo rm /var/lib/pacman/db.lck'          # remove pacman lock
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'       # remove orphaned packages
+alias refresh='sudo pacman -Syy'                       # refresh all of the pacman databases
 
 #--get fastest mirrors--#
 alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
@@ -73,8 +104,8 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 #--adding flags--#
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
+alias df='df -h'     # human-readable sizes
+alias free='free -m' # show sizes in MB
 alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
 alias vifm='./.config/vifm/scripts/vifmrun'
 alias ncmpcpp='ncmpcpp ncmpcpp_directory=$HOME/.config/ncmpcpp/'
@@ -102,7 +133,7 @@ alias commit='git commit -m'
 alias fetch='git fetch'
 alias pull='git pull origin'
 alias push='git push origin'
-alias stat='git status'  # 'status' is protected name so using 'stat' instead
+alias stat='git status' # 'status' is protected name so using 'stat' instead
 alias tag='git tag'
 alias newtag='git tag -a'
 
@@ -155,4 +186,3 @@ alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 alias rice!="/home/marks/.config/scripts/setbg"
 alias convertmov="/home/marks/.config/scripts/convertmov.sh"
 alias wallpaper-wrap="/home/marks/.config/scripts/wallpaper-wrap"
-
