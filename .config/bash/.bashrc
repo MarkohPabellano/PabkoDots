@@ -1,3 +1,24 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+#--Easy Stuff--#
+export EDITOR='nvim'
+export VISUAL='nvim'
+export TERMINAL='kitty'
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.config/emacs/bin:$PATH"
+
+#--PROMPT--#
+#PS1='[\u@\h \W]\$ '
+eval "$(starship init bash)"
+
+#--Progams--#
+eval "$(zellij setup --generate-auto-start zsh)"
+
 #--ALIASES--#
 
 #alias sudo='doas'
@@ -70,8 +91,8 @@ alias pscpu='ps auxf | sort -nr -k 3'
 alias merge='xrdb -merge ~/.Xresources'
 
 #--git--#
-alias gitname= git config --global user.email "markohblpabellano@gmail.com"
-alias gitmail= git config --global user.name "Markoh Pabellano"
+alias gitname='git config --global user.email "markohblpabellano@gmail.com"'
+alias gitmail='git config --global user.name "Markoh Pabellano"'
 alias addup='git add -u'
 alias addall='git add .'
 alias branch='git branch'
@@ -134,3 +155,4 @@ alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 alias rice!="/home/marks/.config/scripts/setbg"
 alias convertmov="/home/marks/.config/scripts/convertmov.sh"
 alias wallpaper-wrap="/home/marks/.config/scripts/wallpaper-wrap"
+

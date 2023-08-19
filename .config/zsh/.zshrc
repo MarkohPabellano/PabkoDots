@@ -29,7 +29,10 @@ zstyle ':completion:*' menu select
 
 #--Prompt--#
 #source ~/.config/zsh/powerlevel10k/powerlevel10k.zsh-theme
-eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/bubbles.omp.json)"
+#eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/bubbles.omp.json)"
+eval "$(starship init zsh)"
+
+
 
 #--History Substring Search Options--#
 #bindkey '^[[A' history-substring-search-up
@@ -103,3 +106,4 @@ fi
 #[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 eval "$(zellij setup --generate-auto-start zsh)"
+
