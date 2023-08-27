@@ -41,7 +41,7 @@ bar = Bar([
 
     left_powerline_pua(gruvbox['dark-blue']),
      Systray(
-        padding=30,
+        padding=5,
         #background = gruvbox['bg'],
     ),
     #Spacer(length=10),
