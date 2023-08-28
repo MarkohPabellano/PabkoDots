@@ -9,7 +9,7 @@ from libqtile.extension.window_list import WindowList
 from libqtile.extension.command_set import CommandSet
 
 # import layout objects
-from libqtile.layout.columns import Columns
+#from libqtile.layout.columns import Columns
 from libqtile.layout.xmonad import MonadTall, MonadWide
 from libqtile.layout.stack import Stack
 from libqtile.layout.floating import Floating
@@ -54,6 +54,7 @@ keys = [
     Key([mod], "l", lazy.layout.grow(), lazy.layout.increase_nmaster(), desc='Expand window (MonadTall), increase number in master pane (Tile)' ),
     Key([mod], "n", lazy.layout.normalize(), desc='normalize window size ratios' ), 
     Key([mod], "m", lazy.layout.maximize(), desc='toggle window between minimum and maximum sizes'),
+    Key([mod], "z", lazy.window.toggle_sminimize(), desc="Minimize focused window"),
     Key([mod, "shift"], "f", lazy.window.toggle_floating(),desc='toggle floating'         ),
     Key([mod], "f", lazy.window.toggle_fullscreen(), desc='toggle fullscreen' ),
 
@@ -95,19 +96,19 @@ groups = [
             Match(wm_class='firefox'), 
             Match(wm_class='brave'), 
             Match(wm_class='qutebrowser')], 
-          layout="stack"),
+          layout="monadtall"),
     Group('2', label="", layout="monadtall"),
-    Group('3', label="", layout="columns"),
+    Group('3', label="", layout="monadtall"),
     Group('4', label="", 
           matches=[
             Match(wm_class='discord'), 
             Match(wm_class='zoom'), 
             Match(wm_class="teams-for-linux")], 
-          layout="stack"),
+          layout="monadtall"),
     Group('5', label="", 
           matches=[
             Match(wm_class="Spotify")], 
-          layout="stack"),
+          layout="monadtall"),
     Group('6', label="", layout="monadtall"),
     Group('7', label="", layout="monadtall"),
     Group('8', label="", layout="monadtall"),
@@ -164,16 +165,16 @@ layouts = [
         single_border_width=1,
         single_margin=8,
     ),
-    Columns(
-        border_normal=gruvbox['dark-gray'],
-        border_focus=gruvbox['cyan'],
-        border_width=3,
-        border_normal_stack=gruvbox['dark-gray'],
-        border_focus_stack=gruvbox['dark-green'],
-        border_on_single=2,
-        margin=8,
-        margin_on_single=8,
-    )
+    #Columns(
+    #    border_normal=gruvbox['dark-gray'],
+    #    border_focus=gruvbox['cyan'],
+    #    border_width=3,
+    #    border_normal_stack=gruvbox['dark-gray'],
+    #    border_focus_stack=gruvbox['dark-green'],
+    #    border_on_single=2,
+    #    margin=8,
+    #    margin_on_single=8,
+    #)
 ]
 
 floating_layout = Floating(
