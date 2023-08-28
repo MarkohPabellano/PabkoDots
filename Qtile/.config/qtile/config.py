@@ -74,9 +74,18 @@ keys = [
     Key([mod, "control"], "r", lazy.restart(), desc="Restart Qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod, "shift"], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
-    Key([], "XF86AudioRaiseVolume",lazy.spawn("amixer set Master 3%+")),
-    Key([], "XF86AudioLowerVolume",lazy.spawn("amixer set Master 3%-")),
-    Key([], "XF86AudioMute",lazy.spawn("amixer set Master toggle")),
+
+    #Volume control using PipeWire
+    Key([], "XF86AudioLowerVolume", lazy.spawn("pamixer --decrease 5")),
+    Key([], "XF86AudioRaiseVolume", lazy.spawn("pamixer --increase 5")),
+    Key([], "XF86AudioMute", lazy.spawn("pamixer --toggle-mute")),
+
+    # Brightness control using brillo
+    Key([], "XF86MonBrightnessUp", lazy.spawn("brillo -q -A 10")),
+    Key([], "XF86MonBrightnessDown", lazy.spawn("brillo -q -U 10")),
+
+    # Microphone mute/unmute using PipeWire (commands might vary)
+    Key([], "XF86AudioMicMute", lazy.spawn("pactl set-source-mute @DEFAULT_SOURCE@ toggle")),
 ]
 
 
