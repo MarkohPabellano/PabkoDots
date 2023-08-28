@@ -30,9 +30,16 @@ terminal = "kitty"
 
 keys = [
     # Switch between windows
-    Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
-    Key([mod], "l", lazy.layout.right(), desc="Move focus to right"),
-    Key([mod],"space", lazy.layout.next(), desc="Move window focus to other window"),
+    #Key([mod], "j", lazy.layout.left(), desc="Move focus to left"),
+    #Key([mod], "k", lazy.layout.right(), desc="Move focus to right"),
+    #Key([mod],"space", lazy.layout.next(), desc="Move window focus to other window"),
+    #Key([mod], "j", lazy.layout.down(), desc='Move focus down in current stack pane' ),
+    #Key([mod], "k", lazy.layout.up(), desc='Move focus up in current stack pane' ),
+    Key([mod], "j", lazy.group.next_window(), desc='Move focus next in current stack pane' ),
+    Key([mod], "k", lazy.group.prev_window(), desc='Move focus prev in current stack pane' ),
+    # Switch to windows within the current group
+    #Key([alt, "shift"], "1", lazy.group[1].toscreen(toggle=False), desc="Switch to window 1"),
+    #Key([alt, "shift"], "2", lazy.group[2].toscreen(toggle=False), desc="Switch to window 2"),
 
     # Applications
     Key([mod], "r", lazy.spawn("rofi -show drun"), desc="spawn rofi"),
@@ -46,10 +53,6 @@ keys = [
     # Moving out of range in Columns layout will create new column.
 
     # Window controls
-    #Key([mod], "j", lazy.layout.down(), desc='Move focus down in current stack pane' ),
-    #Key([mod], "k", lazy.layout.up(), desc='Move focus up in current stack pane' ),
-    Key([mod], "j", lazy.group.next_window(), desc='Move focus next in current stack pane' ),
-    Key([mod], "k", lazy.group.prev_window(), desc='Move focus prev in current stack pane' ),
     Key([mod, "shift"], "j", lazy.layout.shuffle_down(), lazy.layout.section_down(), desc='Move windows down in current stack' ),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), lazy.layout.section_up(), desc='Move windows up in current stack' ),
     Key([mod], "h", lazy.layout.shrink(),lazy.layout.decrease_nmaster(), desc='Shrink window (MonadTall), decrease number in master pane (Tile)' ),
@@ -76,7 +79,7 @@ keys = [
     Key([mod, "shift"], "space", lazy.layout.flip()),
     Key([mod, "control"], "r", lazy.restart(), desc="Restart Qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
-    Key([mod, "shift"], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
+    #Key([mod, "shift"], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
 
     #Volume control using PipeWire
     Key([], "XF86AudioLowerVolume", lazy.spawn("pamixer --decrease 5")),
@@ -155,7 +158,7 @@ layouts = [
     Stack(
         border_normal=gruvbox['dark-gray'],
         border_focus=gruvbox['cyan'],
-        border_width=3,
+        border_width=4,
         num_stacks=1,
         margin=8,
     ),
@@ -163,7 +166,7 @@ layouts = [
         border_normal=gruvbox['dark-gray'],
         border_focus=gruvbox['cyan'],
         margin=8,
-        border_width=3,
+        border_width=4,
         single_border_width=1,
         single_margin=8,
     ),
