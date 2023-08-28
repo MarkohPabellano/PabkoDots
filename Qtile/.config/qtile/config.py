@@ -54,7 +54,7 @@ keys = [
     Key([mod], "l", lazy.layout.grow(), lazy.layout.increase_nmaster(), desc='Expand window (MonadTall), increase number in master pane (Tile)' ),
     Key([mod], "n", lazy.layout.normalize(), desc='normalize window size ratios' ), 
     Key([mod], "m", lazy.layout.maximize(), desc='toggle window between minimum and maximum sizes'),
-    Key([mod], "z", lazy.window.toggle_sminimize(), desc="Minimize focused window"),
+    Key([mod], "z", lazy.window.toggle_minimize(), desc="Minimize focused window"),
     Key([mod, "shift"], "f", lazy.window.toggle_floating(),desc='toggle floating'         ),
     Key([mod], "f", lazy.window.toggle_fullscreen(), desc='toggle fullscreen' ),
 
