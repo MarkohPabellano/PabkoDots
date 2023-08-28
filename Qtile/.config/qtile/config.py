@@ -46,8 +46,10 @@ keys = [
     # Moving out of range in Columns layout will create new column.
 
     # Window controls
-    Key([mod], "j", lazy.layout.down(), desc='Move focus down in current stack pane' ),
-    Key([mod], "k", lazy.layout.up(), desc='Move focus up in current stack pane' ),
+    #Key([mod], "j", lazy.layout.down(), desc='Move focus down in current stack pane' ),
+    #Key([mod], "k", lazy.layout.up(), desc='Move focus up in current stack pane' ),
+    Key([mod], "j", lazy.group.next_window(), desc='Move focus next in current stack pane' ),
+    Key([mod], "k", lazy.group.prev_window(), desc='Move focus prev in current stack pane' ),
     Key([mod, "shift"], "j", lazy.layout.shuffle_down(), lazy.layout.section_down(), desc='Move windows down in current stack' ),
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), lazy.layout.section_up(), desc='Move windows up in current stack' ),
     Key([mod], "h", lazy.layout.shrink(),lazy.layout.decrease_nmaster(), desc='Shrink window (MonadTall), decrease number in master pane (Tile)' ),
