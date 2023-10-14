@@ -62,6 +62,7 @@ keys = [
     Key([mod], "z", lazy.window.toggle_minimize(), desc='Minimize focused window'),
     Key([mod, "shift"], "f", lazy.window.toggle_floating(),desc='toggle floating'),
     Key([mod], "f", lazy.window.toggle_fullscreen(), desc='toggle fullscreen' ),
+    Key([mod], "b", lazy.hide_show_bar(), desc="Hides the bar"),
 
     # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
