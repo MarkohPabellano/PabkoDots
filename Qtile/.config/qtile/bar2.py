@@ -152,5 +152,5 @@ bar = Bar([
     #margin=[10, 10, 10, 10], margin=[10, 0, 0, 0],
     background=gruvbox['dark-gray'], #'#00000000',
     opacity=1,
-    size=25,
+    size=30,
 )
