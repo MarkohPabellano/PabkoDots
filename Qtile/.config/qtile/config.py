@@ -161,15 +161,15 @@ layouts = [
         border_focus=gruvbox['magenta'],
         border_width=0,
         num_stacks=1,
-        margin=0,
+        margin=10,
     ),
     MonadTall(
         border_normal=gruvbox['dark-gray'],
         border_focus=gruvbox['magenta'],
-        margin=0,
+        margin=10,
         border_width=0,
         #single_border_width=1,
-        single_margin=0,
+        #single_margin=0,
     ),
     #Columns(
     #    border_normal=gruvbox['dark-gray'],
