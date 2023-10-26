@@ -42,10 +42,10 @@ bar = Bar([
     left_powerline_pua(gruvbox['dark-blue']),
      Systray(
         padding=5,
-        #background = gruvbox['bg'],
+        #foreground = gruvbox['bg'],
     ),
     #Spacer(length=10),
-    left_powerline_pua(gruvbox['yellow']),
+    left_powerline_pua(gruvbox['yellow']), 
     CurrentLayout(background=gruvbox['yellow'],
     ),
 
@@ -92,14 +92,14 @@ bar = Bar([
 
     #left_half_circle(gruvbox['bg']),
      TaskList(
-        foreground=gruvbox['bg'],
+        foreground=gruvbox['fg'],
         icon_size = 1,
         #font = "JetBrainsMono Nerd Font",
         #background
         borderwidth = 2,
         border =gruvbox['blue'],
-        margin = 2,
-        padding = 0,
+        margin = 5,
+        padding = 1,
         highlight_method = "border",
         title_width_method = "uniform",
         urgent_alert_method = "border",
@@ -149,8 +149,8 @@ bar = Bar([
     #Spacer(length=3),
     
 ],
-    margin=[10, 10, 10, 10],
-    background='#00000000',
+    #margin=[10, 10, 10, 10], margin=[10, 0, 0, 0],
+    background=gruvbox['dark-gray'], #'#00000000',
     opacity=1,
-    size=20,
+    size=25,
 )

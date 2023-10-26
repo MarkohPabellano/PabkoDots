@@ -158,18 +158,18 @@ keys.extend([
 layouts = [
     Stack(
         border_normal=gruvbox['dark-gray'],
-        border_focus=gruvbox['cyan'],
-        border_width=4,
+        border_focus=gruvbox['magenta'],
+        border_width=0,
         num_stacks=1,
-        margin=8,
+        margin=0,
     ),
     MonadTall(
         border_normal=gruvbox['dark-gray'],
-        border_focus=gruvbox['cyan'],
-        margin=8,
-        border_width=4,
-        single_border_width=1,
-        single_margin=8,
+        border_focus=gruvbox['magenta'],
+        margin=0,
+        border_width=0,
+        #single_border_width=1,
+        single_margin=0,
     ),
     #Columns(
     #    border_normal=gruvbox['dark-gray'],
@@ -217,14 +217,14 @@ mouse = [
 ]
 widget_defaults = dict(
     font='Caskaydia Cove Nerd Font',
-    fontsize=13,
+    fontsize=14,
     padding=10,
     foreground=gruvbox['bg'],
 )
 
 extension_defaults = widget_defaults.copy()
 
-screens = [Screen(top=bar)]
+screens = [Screen(bottom=bar)]
 
 dgroups_key_binder = None
 dgroups_app_rules = []  # type: List
