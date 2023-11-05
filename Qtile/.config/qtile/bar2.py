@@ -13,6 +13,7 @@ from libqtile.widget.clock import Clock
 from libqtile.widget.spacer import Spacer
 from libqtile.widget.textbox import TextBox
 from qtile_extras.widget import UPowerWidget
+from qtile_extras.widget.decorations import RectDecoration
 #from libqtile.widget.image import Image
 
 from colors import gruvbox
@@ -83,7 +84,19 @@ bar = Bar([
         block_highlight_text_color=gruvbox['red'],
         borderwidth=0,
         highlight_color=gruvbox['fg'],
-        background=gruvbox['fg']
+        background=gruvbox['fg'],
+        #margin_y = 2,
+        #margin_x = 3,
+        #padding_y = 2,
+        #padding_x = 3,
+        #decorations = [
+        #    RectDecoration (
+        #        colour = gruvbox['fg'],
+        #        padding_y = 5,
+        #        radius = 2,
+        #        filled = True
+        #    ),
+        #],
         ),
 
     #Spacer(length=10),
@@ -118,6 +131,14 @@ bar = Bar([
         format=' {freq_current}GHz {load_percent}%',
         background=gruvbox['dark-cyan'],
         mouse_callbacks = {'Button1': spawn_missioncenter},
+        #decorations = [
+        #    RectDecoration (
+        #        colour = gruvbox['fg'],
+        #        padding_y = 50,
+        #        radius = 2,
+        #       filled = True
+        #    ),
+        #],
     ),
 
     right_powerline_pua(gruvbox['dark-cyan']),
@@ -150,7 +171,7 @@ bar = Bar([
     
 ],
     margin=[3, 10, 10, 10],
-    background=gruvbox['dark-gray'], #'#00000000',
+    background=gruvbox['bg0'], #'#00000000',
     opacity=1,
     size=30,
 )
