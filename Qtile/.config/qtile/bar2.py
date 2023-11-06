@@ -163,6 +163,7 @@ bar = Bar([
     #Spacer(length=10),
     UPowerWidget(
         border_colour=gruvbox['green'],
+        foreground=gruvbox['fg'],
         border_critical_colour=gruvbox['red']
     ),
     right_powerline_pua(gruvbox['yellow']),
