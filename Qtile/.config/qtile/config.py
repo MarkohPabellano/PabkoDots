@@ -158,16 +158,16 @@ keys.extend([
 layouts = [
     Stack(
         border_normal=gruvbox['dark-gray'],
-        border_focus=gruvbox['magenta'],
-        border_width=0,
+        border_focus=gruvbox['dark-yellow'],
+        border_width=3,
         num_stacks=1,
         margin=10,
     ),
     MonadTall(
         border_normal=gruvbox['dark-gray'],
-        border_focus=gruvbox['magenta'],
+        border_focus=gruvbox['dark-yellow'],
         margin=10,
-        border_width=0,
+        border_width=3,
         #single_border_width=1,
         #single_margin=0,
     ),
