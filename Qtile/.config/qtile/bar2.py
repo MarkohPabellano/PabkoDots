@@ -171,7 +171,7 @@ bar = Bar([
     #Spacer(length=3),
     
 ],
-    margin=[3, 10, 10, 10],
+    margin=[10, 10, 10, 10],
     background= '#00000000',
     #gruvbox['bg0'], 
     opacity=1,
