@@ -9,7 +9,7 @@ from libqtile.extension.window_list import WindowList
 from libqtile.extension.command_set import CommandSet
 
 # import layout objects
-#from libqtile.layout.columns import Columns
+# from libqtile.layout.columns import Columns
 from libqtile.layout.xmonad import MonadTall, MonadWide
 from libqtile.layout.stack import Stack
 from libqtile.layout.floating import Floating
@@ -30,16 +30,16 @@ terminal = "kitty"
 
 keys = [
     # Switch between windows
-    #Key([mod], "j", lazy.layout.left(), desc="Move focus to left"),
-    #Key([mod], "k", lazy.layout.right(), desc="Move focus to right"),
-    #Key([mod],"space", lazy.layout.next(), desc="Move window focus to other window"),
-    #Key([mod], "j", lazy.layout.down(), desc='Move focus down in current stack pane' ),
-    #Key([mod], "k", lazy.layout.up(), desc='Move focus up in current stack pane' ),
+    # Key([mod], "j", lazy.layout.left(), desc="Move focus to left"),
+    # Key([mod], "k", lazy.layout.right(), desc="Move focus to right"),
+    # Key([mod],"space", lazy.layout.next(), desc="Move window focus to other window"),
+    # Key([mod], "j", lazy.layout.down(), desc='Move focus down in current stack pane' ),
+    # Key([mod], "k", lazy.layout.up(), desc='Move focus up in current stack pane' ),
     Key([mod], "j", lazy.group.next_window(), desc='Move focus next in current stack pane' ),
     Key([mod], "k", lazy.group.prev_window(), desc='Move focus prev in current stack pane' ),
     # Switch to windows within the current group
-    #Key([alt, "shift"], "1", lazy.group[1].toscreen(toggle=False), desc="Switch to window 1"),
-    #Key([alt, "shift"], "2", lazy.group[2].toscreen(toggle=False), desc="Switch to window 2"),
+    # Key([alt, "shift"], "1", lazy.group[1].toscreen(toggle=False), desc="Switch to window 1"),
+    # Key([alt, "shift"], "2", lazy.group[2].toscreen(toggle=False), desc="Switch to window 2"),
 
     # Applications
     Key([mod], "r", lazy.spawn("rofi -show drun"), desc="spawn rofi"),
