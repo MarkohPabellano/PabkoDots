@@ -172,7 +172,7 @@ bar = Bar([
     
 ],
     margin=[10, 10, 10, 10],
-    background= '#1E2326', 
+    background= '#414B50', 
     #gruvbox['bg0'],
     #'#00000000',
     opacity=1,
