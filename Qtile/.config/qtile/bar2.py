@@ -47,8 +47,10 @@ bar = Bar([
     ),
     #Spacer(length=10),
     left_powerline_pua(gruvbox['yellow']), 
-    CurrentLayout(background=gruvbox['yellow'],
-    ),
+    CurrentLayout(
+        background=gruvbox['yellow'],
+
+        ),
 
     #Spacer(length=10),
 
@@ -172,7 +174,7 @@ bar = Bar([
     
 ],
     margin=[10, 10, 10, 10],
-    background= '#414B50', 
+    background= '#00000000', 
     #gruvbox['bg0'],
     #'#00000000',
     opacity=1,
