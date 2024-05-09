@@ -1,0 +1,59 @@
+# Rofi
+super + r
+    rofi -show combi -combi-modi drun,run -modi combi -show-icons
+    
+# Reload sxhkd
+alt + shift + s
+    pkill -USR1 -x sxhkd
+
+# Flameshot
+alt + s
+    flameshot gui
+
+# Slock
+alt + l
+    slock
+    
+# Terminals
+# super + return
+#        kitty
+
+#System Control
+alt + shift + q
+    pkill xinit
+
+# Raise volume
+XF86AudioRaiseVolume
+    pactl -- set-sink-volume 0 +10%
+
+# Lower volume
+XF86AudioLowerVolume
+    pactl -- set-sink-volume 0 -10%
+
+# Mute
+XF86AudioMute
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# Play
+XF86AudioPlay
+    playerctl play-pause
+
+# Next
+XF86AudioNext
+    playerctl next
+
+# Previous
+XF86AudioPrev
+    playerctl previous
+
+# Stop
+XF86AudioStop
+    playerctl stop
+
+# Brightness up
+XF86MonBrightnessUp
+    xbacklight -inc 10
+
+# Brightness down
+XF86MonBrightnessDown
+    xbacklight -dec 10
