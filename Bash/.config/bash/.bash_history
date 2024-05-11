@@ -1,39 +1,3 @@
-clear
-sudo xbps-install void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree
-sudo xbpx-install -S
-sudo xbps-install -S
-clear
-neofetch
-claer
-clear
-neofetch
-claer
-neofetch
-nmtui
-clear
-sudo xbps-remove vscode
-ls
-rm -rf cursor-0.32.0x86_64.AppImage 
-code 
-sudo flatpak install flathub com.visualstudio.code
-flatpak remove vscode
-flatpak remove code
-sudo flatpak install flathub com.visualstudio.code
-code
-code
-nmtui
-ping google.com
-nmtui
-nmtui 
-nmtui
-startx
-sudo poweroff
-nmtui
-nmtui
-startx
-sudo poweroff
-nmtui
-nmtui
 startx
 sudo poweroff
 sudo flatpak install flathub com.rafaelmardojai.Blanket
@@ -498,3 +462,103 @@ git add -A
 git commit -m "updated dotfiles lmao dwm and slstatus now for viewinggit add -A"
 git push
 git push
+sudo cp config.def.h config.h
+sudo make
+sudo make clean install
+sudo cp config.def.h config.h
+sudo make
+sudo make clean install
+sudo cp config.def.h config.h
+sudo make
+sudo cp config.def.h config.h
+sudo make clean install
+sudo cp config.def.h config.h
+sudo make
+sudo make clean install
+sudo cp config.def.h config.h
+sudo make
+sudo make clean install
+sudo cp config.def.h config.h
+sudo make
+sudo make clean install
+sudo cp config.def.h config.h
+sudo make
+sudo make clean install
+sudo cp config.def.h config.h
+sudo make
+sudo make clean install
+git@github.com:MarkohPabellano/PabkoDots.git
+git clone git@github.com:MarkohPabellano/PabkoDots.git
+cd PabkoDots/
+ls
+ll
+ls
+ll
+ls
+git add -A
+git commit -m "updated dotfiles, dwm config now viewable lol"
+git push
+nmtui
+cd Downloads
+ls
+sudo chmod u+x Heptabase-1.32.6.AppImage 
+sudo mv Heptabase-1.32.6.AppImage /usr/local/bin/heptabase
+cd /usr/local/bin/
+ls
+ll
+rm -rf /usr/local/bin/heptabase 
+sudo rm -rf /usr/local/bin/heptabase 
+sudo rm -rf /usr/local/bin/anytype
+ll /usr/local/bin/anytype
+ll /usr/local/bin/
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+./auto-cpufreq-installer 
+sudo ./auto-cpufreq-installer 
+auto-cpufreq --stats
+sudo auto-cpufreq --install
+sudo auto-cpufreq --stats
+cd Downloads/
+ls
+chmod u+x Mochi-1.17.7.AppImage 
+sudo mv Mochi-1.17.7.AppImage /usr/local/bin/Mochi_1.17.7
+sudo rm-rf /usr/local/bin/thorium 
+sudo rm -rf /usr/local/bin/thorium 
+ll /usr/local/bin/thorium
+ll /usr/local/bin/
+ll
+chmod u+x Thorium_Browser_123.0.6312.133_AVX.AppImage 
+sudo mv Thorium_Browser_123.0.6312.133_AVX.AppImage /usr/local/bin/
+sudo btrsfs-assistant
+sudo btrfs-assistant
+sudo btrfs-assistant
+sudo btrfs-assistant
+startx
+nmtui
+sudo xbps-install -Sui
+sudo xbps-install -Su
+sudo xbps-install xsel
+sudo xbps-remove xsel
+sudo xbps-remove flameshot
+sudo xbps-install flameshot
+flameshot
+copyq
+sudo xbps-remove xclip
+flameshot
+ll /var/service/
+ll /etc/sv/
+sudo ln -s /etc/sv/dhcpcd-eth0 /var/service/
+sudo ln -s /etc/sv/dhcpcd /var/service/
+sudo ln -s /etc/sv/wpa_supplicant /var/service/
+ll /var/service/
+nmtui
+sv status wpa_supplicant
+sudo sv status wpa_supplicant
+sudo sv remove wpa_supplicant
+sudo rm /var/service/wpa_supplicant
+sudo sv status wpa_supplicant
+sudo xbps-remove wpa_supplicant
+nvim
+picom
+compton

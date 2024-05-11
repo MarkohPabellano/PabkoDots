@@ -5,13 +5,15 @@ export GTK_IM_MODULE=xim
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 
-/usr/bin/pipewire &
+/usr/bin/pipewire &s
 /usr/bin/pipewire-pulse &
 ##/usr/bin/wireplumber &
 
 fcitx &
 ##picom &
 sxhkd &
+flameshot &
+copyq &
 #xsetroot -name "The Purpose is Always You!!! ;)" &
 slstatus &
 wal -r &
