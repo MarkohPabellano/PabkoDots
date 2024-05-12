@@ -562,3 +562,21 @@ sudo xbps-remove wpa_supplicant
 nvim
 picom
 compton
+startx
+startx
+exit
+htop
+sudo rm /var/service/bluetoothd
+ll /var/service
+ll /var/service/
+startx
+exit
+free -h && ps -e -orss=,%mem,args= | sort -nr | head
+btop
+sudo rm /usr/local/bin/heptabase
+cd Downloads/
+ls
+chmod u+x Heptabase-1.32.7.AppImage 
+sudo mv Heptabase-1.32.7.AppImage /usr/local/bin/
+nmtui
+nmtui

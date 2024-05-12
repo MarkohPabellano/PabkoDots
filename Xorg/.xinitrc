@@ -23,6 +23,5 @@ while true; do
 done
 
 #exec dbus-run-session dwm
-
 #qtile start
 #exec awesome 
