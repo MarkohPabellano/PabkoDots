@@ -580,3 +580,220 @@ chmod u+x Heptabase-1.32.7.AppImage
 sudo mv Heptabase-1.32.7.AppImage /usr/local/bin/
 nmtui
 nmtui
+sudo xbps-install steam
+sudo xbps-install libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit
+sudo xbps-install -S libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit
+sudo xbps-install mesa-dri-32bit
+steam
+nmtui
+htop
+pkill steam
+nmtui
+cd /usr
+cd local/
+ cd bin/
+ls
+sudo rm -rf Mochi_1.17.7 
+cd
+cd Downloads/
+ls
+chmod +x Mochi-1.17.7.AppImage 
+sudo mv Mochi-1.17.7.AppImage /usr/local/bin/
+nmtui
+nmtui
+cd .config
+ls
+cd mochi/
+ls
+cd..
+cd ..
+rm -rf mochi/
+ls
+grep SwapTotal /proc/meminfo -- get the amount of swap file
+grep SwapTotal /proc/meminfo
+zram
+zswap
+htop
+lsblk
+/swap
+zzz
+sudo zzz
+nmtui
+nmtui
+nmtui
+nmtui
+pkill steam
+pkill steam
+nmtui
+nnmtui
+nmtui
+pkill dwm
+pkill xinit
+nmtui
+startx
+startx
+startx
+startx
+ssudo poweroff
+sudo poweroff
+nmtui
+nmtui
+wal 
+wal -i /home/marks/Pictures/MarkWalls/jake.png 
+cd PabkoDots/
+ls
+cd Dwm/
+ls
+cd .config
+ls
+cd suckless/
+ls
+cd dwm
+ls
+sudo cp config.def.h config.h
+sudo make clean install
+sudo make 
+wal -l
+wal
+wal -l /home/marks/Pictures/MarkWalls/vidgame1.png 
+wal -i /home/marks/Pictures/MarkWalls/vidgame1.png 
+cd PabkoDots/
+ls
+cd Dwm/
+cd .config/suckless/
+cd dw,
+cd dw,
+cd dwm
+ls
+clear
+sudo cp config.def.h config.h
+sudo make
+sudo make clean install
+nmtui
+nmtui
+nmtui
+nmtui
+sudo xbps-install -Su
+nmtui
+xmiror
+xmirror
+sudo xmirror
+sudo xbps-instalL -s
+sudo xbps-instalL -s
+sudo xbps-instalL -S
+sudo xbps-install -S
+sudo xbps-install -Su
+sudo xbps-install -Su
+xmirror
+sudo xmirror
+sudo xbps-install -Su
+nmtui
+nmtui
+startx
+startx
+startx
+startx
+satstartx
+startx
+startx
+sudo poweroff
+nmtui
+sudo xbps-install -Su
+sudo xbps-install -Su
+sudo flatpak update
+compton
+ls /usr/share/bin
+ls
+ls /usr
+cd share
+ls
+cd /usr
+ls
+clear
+cd share
+ls
+cd bin
+ls
+cd
+cd /usr/bin
+ls
+cd
+sudo rm -rf /usr/local/bin/Mochi-1.17.7.AppImage 
+clear
+cd Downloa
+cd Downloads
+ls
+clear
+ls
+sudo chmod +x Mochi-1.17.9.AppImage 
+sudo mv Mochi-1.17.9.AppImage /usr/local/bin/
+sudo rm -rf /usr/local/bin/Thorium_Browser_123.0.6312.133_AVX.AppImage 
+cd Downloads/
+ls
+sudo chmod u+x Thorium_Browser_124.0.6367.218_AVX.AppImage 
+sudo mv Thorium_Browser_124.0.6367.218_AVX.AppImage /usr/local/bin/
+nmtui
+sudo rm -rf /usr/local/bin/logseq 
+cd Downloads/
+ls
+sudo chmod u+x Logseq-linux-x64-0.10.9.AppImage 
+sudo mv Logseq-linux-x64-0.10.9.AppImage /usr/local/bin/
+ui
+nmtui
+nmtui
+pkill steam
+pkill steam
+nmtui
+nmtui
+nmtui
+nmtui
+nmtui
+nmtui
+nmtui
+nmtui
+nmtui
+auto-cpufreq --stats
+nmtui
+sudo xbps-install -Su
+startx
+startx
+startx
+restart
+sudo reboot
+nmtui
+nmtui
+nmtui
+nmtui
+startx
+startx
+exit
+nmtui
+sudo rm -rf /etc/apparmor.d/libvirt
+sudo rm -rf /etc/apparmor.d/libvirt 
+asciiquairum
+asciiquarium
+cmatrix
+wal -R /home/marks/Pictures/MarkWalls/pink.jpg 
+wal -r /home/marks/Pictures/MarkWalls/pink.jpg 
+wal -s /home/marks/Pictures/MarkWalls/pink.jpg 
+wal -i /home/marks/Pictures/MarkWalls/pink.jpg 
+cd Dwm/.config/suckless/dwm
+ls
+sudo cp config.def.h config.h
+sudo make install
+sudo make clean install
+htop
+sudo xbps-remove apparmor
+sudo rm -rf /etc/apparmor.d/libvirt 
+sudo xbps-install apparmor
+nvim
+nvim PabkoDots/
+wal -i /home/marks/Pictures/MarkWalls/ghibli1.png 
+wal -i /home/marks/Pictures/MarkWalls/ghibli1.png 
+wal -i /home/marks/Pictures/MarkWalls/ghibli1.png 
+sudo cp config.def.h config.h
+sudo make install
+sudo make clean install
+sudo xbps-install resvg
+sudo xbps-install -Su
+sudo btrfs-assistant

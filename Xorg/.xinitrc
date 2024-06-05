@@ -17,7 +17,7 @@ copyq &
 #xsetroot -name "The Purpose is Always You!!! ;)" &
 slstatus &
 wal -r &
-feh --bg-scale /home/marks/Pictures/MarkWalls/artistswall.png
+feh --bg-scale /home/marks/Pictures/MarkWalls/ghibli1.png
 while true; do
     dwm >/dev/null 2>&1
 done
