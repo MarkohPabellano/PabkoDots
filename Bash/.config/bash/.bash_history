@@ -545,3 +545,16 @@ exit
 startx
 startx
 sudo poweroff
+feh --bg-scale /home/marks/Pictures/MarkWalls/thinkpad.jpg
+clear
+cd Downloads
+ls
+cd NumixSolarized/
+ls
+sudo cp NumixSolarizedDarkCyan /usr/share/themes/
+sudo cp -r NumixSolarizedDarkCyan /usr/share/themes/
+cd /usr/share/themes
+ls
+ll
+ls
+ll

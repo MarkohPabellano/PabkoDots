@@ -15,9 +15,9 @@ sxhkd &
 flameshot &
 copyq &
 #xsetroot -name "The Purpose is Always You!!! ;)" &
-slstatus &
-wal -r &
-feh --bg-scale /home/marks/Pictures/MarkWalls/linuxworld.png
+#slstatus &
+#wal -r &
+feh --bg-scale /home/marks/Pictures/MarkWalls/thinkpad.jpg
 #while true; do
 #    dwm >/dev/null 2>&1
 #done
