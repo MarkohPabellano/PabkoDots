@@ -649,3 +649,24 @@ feh --bg-scale /home/marks/Pictures/MarkWalls/cubessolarized.jpg
 A
  feh --bg-scale /home/marks/Pictures/MarkWalls/thinkpad-solarized.png 
 flatpak install flathub com.simplenote.Simplenote
+startx
+sudo poweroff
+feh --bg-scale /home/marks/Pictures/MarkWalls/thinkpad-solarized.png 
+copyq
+copyq --help
+copyq-applet
+./fehbg
+ll
+./fehbg
+/.fehbg
+.fegbg
+.fehbg
+./fehbg
+/.fehbg
+.fehbg
+/.fehbg
+./.fehbg
+./.fegbg
+./.fehbg
+sudo flatpak remove proton pass
+flatpak install flathub com.bitwarden.desktop

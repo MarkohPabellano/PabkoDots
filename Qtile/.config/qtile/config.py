@@ -42,7 +42,7 @@ keys = [
     # Key([alt, "shift"], "2", lazy.group[2].toscreen(toggle=False), desc="Switch to window 2"),
 
     # Applications
-    Key([mod], "r", lazy.spawn("rofi -show drun"), desc="spawn rofi"),
+    Key([mod], "r", lazy.spawn("rofi -show combi -combi-modi drun,run -modi combi -show-icons"), desc="spawn rofi"),
     Key([mod], "period", lazy.spawn("rofi -modi emoji -show emoji"), desc="spawn rofi"),
     Key([alt], "s", lazy.spawn("flameshot gui"), desc="Open flameshot gui"),
     Key([alt], "period", lazy.spawn("/home/marks/.config/rofi/powermenu/type-1/powermenu.sh"), desc="powermenu"),

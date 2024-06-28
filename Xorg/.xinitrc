@@ -9,15 +9,13 @@ export XMODIFIERS=@im=fcitx
 /usr/bin/pipewire-pulse &
 ##/usr/bin/wireplumber &
 
-fcitx &
-##picom &
-sxhkd &
-flameshot &
-copyq &
+#fcitx &
+#picom &
+#sxhkd &
 #xsetroot -name "The Purpose is Always You!!! ;)" &
 #slstatus &
 #wal -r &
-feh --bg-scale /home/marks/Pictures/MarkWalls/thinkpad.jpg
+#feh --bg-scale /home/marks/Pictures/MarkWalls/thinkpad.jpg
 #while true; do
 #    dwm >/dev/null 2>&1
 #done

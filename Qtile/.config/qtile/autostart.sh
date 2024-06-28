@@ -3,7 +3,10 @@
 #blueman-applet &
 #redshift -l -6.21462:106.84513 &
 
-#~/.fehbg &
+~/.fehbg &
+fcitx &
+flameshot &
+copyq &
 #copyq &
 #/usr/bin/emacs --daemon &
 #emacsclient -c -a emacs &
