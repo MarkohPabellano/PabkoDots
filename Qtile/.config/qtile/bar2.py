@@ -133,7 +133,7 @@ bar = Bar([
         format=' {freq_current}GHz {load_percent}%',
         background=gruvbox['dark-cyan'],
         mouse_callbacks = {'Button1': spawn_missioncenter},
-        #decorations = [
+        #decorations = [btest
         #    RectDecoration (
         #        colour = gruvbox['fg'],
         #        padding_y = 50,

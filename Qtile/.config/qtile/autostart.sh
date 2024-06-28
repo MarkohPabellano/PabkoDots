@@ -1,21 +1,21 @@
 #!/bin/sh
 
-blueman-applet &
+#blueman-applet &
 #redshift -l -6.21462:106.84513 &
 
-~/.fehbg &
+#~/.fehbg &
 #copyq &
 #/usr/bin/emacs --daemon &
 #emacsclient -c -a emacs &
 #megasync &
 #syncthing &
-nm-applet &
+#nm-applet &
 #mictray &
-pasystray &
+#pasystray &
 #dead-notification-center &
-picom &
+#picom &
 
 #picom --experimental-backends & ##& disown
-/usr/lib/xfce-polkit/xfce-polkit & ##& disown # start polkit agent from xfce
+#/usr/lib/xfce-polkit/xfce-polkit & ##& disown # start polkit agent from xfce
 #xfsettingsd &
 #/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & disown # start polkit agent from GNOME

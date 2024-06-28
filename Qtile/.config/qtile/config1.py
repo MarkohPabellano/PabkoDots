@@ -4,7 +4,7 @@ from typing import Callable, List  # noqa: F401
 
 from libqtile import hook
 
-from libqtile.extension.dmenu import DmenuRun
+#from libqtile.extension.dmenu import DmenuRun
 from libqtile.extension.window_list import WindowList
 from libqtile.extension.command_set import CommandSet
 
@@ -20,7 +20,7 @@ from libqtile.config import Click, Drag, DropDown, Group, Key, Match, ScratchPad
 from libqtile.lazy import lazy
 # from libqtile.utils import guess_terminal
 
-from colors import gruvbox
+from colors import solarized
 
 from bar2 import bar
 

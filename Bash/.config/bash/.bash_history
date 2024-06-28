@@ -558,3 +558,94 @@ ls
 ll
 ls
 ll
+sudo xbps-remove file-roller
+sudo xbps-install 7zip
+sudo xbps-install 7zip
+sudo xbps-install -Su
+sudo xbps-install 7zip
+sudo xbps-remove 7zip
+kitten +themes
+kitten themes
+ls
+llc
+sudo xbps-install thunar-archive-plugin
+sudo xbps-remove thunar-archive-plugin
+sudo xbps-install file-roller
+sudo xbps-remove file-roller
+sudo xbps-install ark
+sudo xbps-install xarchiver
+nmtui
+nmtui
+nmtui
+startx
+startx
+start
+startx
+startx
+startx
+start
+startx
+startx
+qtile check
+exec qtile
+exec qtile
+exec dwm
+rofi
+rofi -show -drn
+qtile check
+sudo xbps-instal mypy
+sudo xbps-install mypy
+rofi -show -drun
+rofi -show
+rofi
+rofi -drun
+rofi drun
+rofi show drun
+rofi -show drun
+pkill x
+qtile check
+pip install mypy
+sudo pip install mypy
+qtile check
+qtile check
+qtile check
+sudo xbps-install mypy
+y
+kitten themes
+ls
+ll
+clear
+lc
+sudo xbps-install rofi-emoji
+cmatrix
+sudo xbps-install -Su
+night
+sudo xbps-install redshift
+night
+ls
+start /usr/bin/dwm
+./usr/bin/dwm
+startx /usr/local/bin/dwm
+startx
+qtile start
+startx /usr/local/bin/dwm
+startx
+sudo poweroff
+night
+pkill redshift
+pkill redshift
+killall redshift
+pkill redshift
+night
+pkill redshift
+redshift -h
+redshift -x
+flatpak install flathub me.proton.Pass
+feh -bg-scale
+cat .xinitrc
+feh --bg-scale /home/marks/Pictures/MarkWalls/cubessolarized.jpg 
+ feh --bg-max /home/marks/Pictures/MarkWalls/cubessolarized.jpg 
+ feh --bg-scale /home/marks/Pictures/MarkWalls/cubessolarized.jpg 
+A
+ feh --bg-scale /home/marks/Pictures/MarkWalls/thinkpad-solarized.png 
+flatpak install flathub com.simplenote.Simplenote

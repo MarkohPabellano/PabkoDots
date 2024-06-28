@@ -41,21 +41,23 @@ gruvbox = {
     'fg9':          '#ebdbb2'
 }
 
-# gruvbox = {
-#     'bg':           '#282828',
-#     'fg':           '#ebdbb2',
-#     'dark-red':     '#cc241d',
-#     'red':          '#fb4934',
-#     'dark-green':   '#98971a',
-#     'green':        '#b8bb26',
-#     'dark-yellow':  '#d79921',
-#     'yellow':       '#fabd2f',
-#     'dark-blue':    '#458588',
-#     'blue':         '#83a598',
-#     'dark-magenta':  '#b16286',
-#     'magenta':       '#d3869b',
-#     'dark-cyan':    '#689d6a',
-#     'cyan':         '#8ec07c',
-#     'dark-gray':    '#3d3d3d',
-#     'gray':         '#666666',
-# }
+solarized = { 
+    'black1':     '#002b36',
+    'black2':     '#073642',
+    'white1':     '#eee8d5',
+    'white2':     '#fdf6e3',
+    'gray1':      '#586e75',
+    'gray2':      '#657b83',
+    'gray3':      '#839496',
+    'gray4':      '#93a1a1',
+    'yellow':        '#b58900',
+    'orange':        '#cb4b16',
+    'red':           '#dc322f',
+    'magenta':       '#d33682',
+    'violet':        '#6c71c4',
+    'blue':          '#268bd2',
+    'cyan':          '#2aa198',
+    'green':         '#859900'
+}
+
+
