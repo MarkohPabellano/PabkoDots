@@ -670,3 +670,46 @@ ll
 ./.fehbg
 sudo flatpak remove proton pass
 flatpak install flathub com.bitwarden.desktop
+sudo rm -rf /usr/local/bin/Obsidian-1.6.3.AppImage 
+cd Downloads/
+ls
+sudo chmod u+x Obsidian-1.6.5.AppImage 
+sudo mv Obsidian-1.6.5.AppImage /usr/local/bin/
+startx
+startx
+startx
+startx
+sudo poweroff
+startx
+startx
+sudo poweroff
+sudo echo thinkpie hostnmr > /etc/hostname
+su
+su
+startx
+exit
+su
+cd /etc/hostapd/
+ls
+cd
+cd /etc/hostname
+cat /etc/hostname
+s
+ls
+sudo -rf ~/.config/chromium/Singleton*
+sudo -rm -rf ~/.config/chromium/Singleton*
+sudo -rm rf ~/.config/chromium/Singleton*
+sudo rm -rf ~/.config/chromium/Singleton*
+sudo rm -rf ~/.config/thorium/SingletonLock
+cd /usr/local/bin/
+ls
+./Thorium_Browser_124.0.6367.218_AVX.AppImage 
+./Thorium_Browser_124.0.6367.218_AVX.AppImage 
+startx
+startx
+ls
+llc
+ll
+clear
+sudo xbps-install -Su
+sudo xbps-install -Su
