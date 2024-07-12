@@ -713,3 +713,80 @@ ll
 clear
 sudo xbps-install -Su
 sudo xbps-install -Su
+sudo xbps-remove bleachbit
+cd Downloads/
+ls
+sudo chmod u+x Stacer-1.1.0-x64.AppImage 
+sudo mv Stacer-1.1.0-x64.AppImage /usr/local/bin/
+startx
+startx
+sudo rm -rf /usr/local/bin/Stacer-1.1.0-x64.AppImage 
+night
+redshift --help
+redshift -h
+redshift -x
+night
+startx
+startx
+python
+python3
+/bin/python /home/marks/Downloads/hello_world.py
+start
+startx
+cd Downloads/
+ls
+touch hello_world.py
+nvim hello_world.py 
+clear
+python
+python run 
+python3 hello_world.py 
+nvim hello_world.py 
+run hello_world.py 
+python3 hello_world.py 
+startx
+night
+startx
+startx
+night
+startx
+sudo xbps-install -Su
+sudo xbps-install -Su
+startx
+autocpufreq
+auto-cpufreq --stats
+startx
+nmtui
+nmtui
+startx
+sudo xbps-install -Su
+sudo flatpak update
+startx
+start
+startx
+startx
+night
+startx
+startx
+xdeb
+sudo xbps-install -Su
+xdeb-install
+python
+pipewire
+python ~/Downloads/hello_world.py 
+python ~/Downloads/hello_world.py 
+python ~/Downloads/hello_world.py 
+python ~/Downloads/hello_world.py 
+python ~/Downloads/hello_world.py 
+python ~/Downloads/hello_world.py 
+python ~/Downloads/hello_world.py 
+python ~/Downloads/hello_world.py 
+python ~/Downloads/hello_world.py 
+python ~/Downloads/hello_world.py 
+python ~/Downloads/simple_message.py
+python ~/Downloads/simple_messages.py
+python ~/Downloads/simple_messages.py
+ls
+clear
+ll
+clear

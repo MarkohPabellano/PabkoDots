@@ -3,6 +3,9 @@
 #blueman-applet &
 #redshift -l -6.21462:106.84513 &
 
+/usr/bin/pipewire &
+/usr/bin/pipewire-pulse &
+/usr/bin/wireplumber &
 ~/.fehbg &
 fcitx &
 flameshot &

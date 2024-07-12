@@ -45,6 +45,7 @@ keys = [
     Key([mod], "r", lazy.spawn("rofi -show combi -combi-modi drun,run -modi combi -show-icons"), desc="spawn rofi"),
     Key([mod], "period", lazy.spawn("rofi -modi emoji -show emoji"), desc="spawn rofi"),
     Key([alt], "s", lazy.spawn("flameshot gui"), desc="Open flameshot gui"),
+    Key([alt], "l", lazy.spawn("slock"), desc="lock screen"),
     Key([alt], "period", lazy.spawn("/home/marks/.config/rofi/powermenu/type-1/powermenu.sh"), desc="powermenu"),
     Key(["control", "shift"], "e", lazy.spawn("emacsclient -c -a emacs"), desc='Doom Emacs'),
 
