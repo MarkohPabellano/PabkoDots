@@ -1,7 +1,7 @@
 from libqtile.bar import Bar
 
 # Widgets Important
-from libqtile.widget.currentlayout import CurrentLayout
+from libqtile.widget.currentlayout import CurrentLayoutIcon
 from libqtile.widget.groupbox import GroupBox
 from libqtile.widget.tasklist import TaskList
 from libqtile.widget.textbox import TextBox
@@ -23,7 +23,8 @@ def spawn_powermenu():
 def spawn_missioncenter():
     qtile.cmd_spawn("missioncenter")
 bar = Bar([
-        CurrentLayout(
+           CurrentLayoutIcon(
+            scale = 0.7,
             background=solarized['black2'],
         ),
         GroupBox(
@@ -38,7 +39,7 @@ bar = Bar([
         background= solarized['black1'],
         this_current_screen_border = solarized['cyan'], 
         #this_screen_border = solarized['gray4'],
-        padding = 7,
+        padding = 3,
         #margin_y = 5,
         #margin_x = 5,
         #padding_y = 5,
@@ -70,16 +71,17 @@ bar = Bar([
             #txt_maximized = "🗖 ",
             #txt_minimized = "",
             ),
-        TextBox("STAY HARD", foreground=solarized['red']),
-        Systray(
-            background=solarized['black2'],
-            padding = 5,
-        ),
         Clock(
             format = '󰸘 %Y-%m-%d %a %r',
             background = solarized['black2'], 
         ),
-        Battery(),
+        Battery(
+            format = '{char} {percent:2.0%}',
+        ),
+        Systray(
+            background=solarized['black2'],
+            padding = 5,
+        ),
         ],
             margin=[0, 0, 0, 0],
             background= solarized['black1'], 

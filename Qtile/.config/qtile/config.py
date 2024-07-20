@@ -98,29 +98,29 @@ keys = [
 
 
 groups = [
-    Group('1', label="", 
-          matches=[
-            Match(wm_class='firefox'), 
-            Match(wm_class='brave'), 
-            Match(wm_class='qutebrowser')], 
+    Group('1', label="1", 
+          #matches=[
+          #  Match(wm_class='firefox'), 
+          #  Match(wm_class='brave'), 
+          #  Match(wm_class='qutebrowser')], 
           layout="monadtall"),
-    Group('2', label="", layout="monadtall"),
-    Group('3', label="", layout="monadtall"),
-    Group('4', label="", 
-          matches=[
-            Match(wm_class='discord'), 
-            Match(wm_class='zoom'), 
-            Match(wm_class="teams-for-linux")], 
+    Group('2', label="2", layout="monadtall"),
+    Group('3', label="3", layout="monadtall"),
+    Group('4', label="4", 
+          #matches=[
+          #  Match(wm_class='discord'), 
+          #  Match(wm_class='zoom'), 
+          #  Match(wm_class="teams-for-linux")], 
           layout="monadtall"),
-    Group('5', label="", 
-          matches=[
-            Match(wm_class="Spotify")], 
+    Group('5', label="5", 
+          #matches=[
+          #  Match(wm_class="Spotify")], 
           layout="monadtall"),
-    Group('6', label="", layout="monadtall"),
-    Group('7', label="", layout="monadtall"),
-    Group('8', label="", layout="monadtall"),
-    Group('9', label="󰊼", layout="monadtall"),
-    Group('0', label="", layout="monadtall"),
+    Group('6', label="6", layout="monadtall"),
+    Group('7', label="7", layout="monadtall"),
+    Group('8', label="8", layout="monadtall"),
+    Group('9', label="9", layout="monadtall"),
+    Group('0', label="10", layout="monadtall"),
 ]
 
 
@@ -173,7 +173,7 @@ layouts = [
         #single_margin=0,
     ),
     #Columns(
-    #    border_normal=gruvbox['dark-gray'],
+    #    border_normal=g2ruvbox['dark-gray'],
     #    border_focus=gruvbox['cyan'],
     #    border_width=3,
     #    border_normal_stack=gruvbox['dark-gray'],

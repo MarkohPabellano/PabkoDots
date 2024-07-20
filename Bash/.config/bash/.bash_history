@@ -790,3 +790,75 @@ ls
 clear
 ll
 clear
+startx
+startx
+night
+net
+nmtui
+startx
+startx
+startx
+startx
+yt-dlp https://youtube.com/playlist?list=PLYq_mcte9NvDA2Xi5Qjl1DrH5LuDKDlAI&si=hOPsYzDuE06RmqoT --paths /mnt/MarksHDD/Music_Marks/The_Beatles/ -f ba -x --audio-format mp3
+xpkg --help
+xpkg -a
+xpkg -a
+xpkg --help
+xpkg -a
+sudo xbps-install Thunar
+sudo xbps-install yt-dlp
+sudo xbps-instal ffmpeg ffprobe
+sudo xbps-install ffmpeg ffprobe
+sudo xbps-install ffmpeg
+yt-dlp --paths  /mnt/MarksHDD/Music_Marks/The_Beatles/  -f ba -x --audio-format mp3 https://youtu.be/XIUQeSOFm0M?si=9FL6REWRNqzofTmv
+yt-dlp --paths  /mnt/MarksHDD/Music_Marks/The_Beatles/  -f ba -x --audio-format mp3 https://youtube.com/playlist?list=PLYq_mcte9NvDA2Xi5Qjl1DrH5LuDKDlAI&si=RVG-QV3l2_Jw3Tje
+xpkg -
+xpkg -m
+xpkg -m
+clear
+cpkg
+xlpg
+xkpg
+xkpg
+xpkg
+cd /run/media
+ls
+cd marks/
+ls
+cd 9F4F-28D0/
+ls
+sudo rm -rf .Trash-1000/
+cd
+yt-dlp --paths  /mnt/MarksHDD/Music_Marks/The_Beatles/  -f ba -x --audio-format mp3  -o playlist_index https://youtube.com/playlist?list=PLLb20-FP0v9zqI9iCWlZz3Sb30PxVDRsn&si=XrsJdmodv0NczgM0
+yt-dlp --paths  /mnt/MarksHDD/Music_Marks/The_Beatles/  -f ba -x --audio-format mp3 -o %(playlist)s/%(playlist_index)s - %(title)s.%(ext)s https://youtube.com/playlist?list=PLLb20-FP0v9zqI9iCWlZz3Sb30PxVDRsn&si=TA_aJSndk6jzHy41
+yt-dlp --paths  /mnt/MarksHDD/Music_Marks/The_Beatles/  -f ba -x --audio-format mp3 -o %(playlist)s/%(playlist_index)s - %(title)s.%(ext)s https://youtube.com/playlist?list=PLLb20-FP0v9zqI9iCWlZz3Sb30PxVDRsn&si=TA_aJSndk6jzHy41
+yt-dlp --paths  /mnt/MarksHDD/Music_Marks/The_Beatles/  -f ba -x --audio-format mp3 -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "https://youtube.com/playlist?list=PLLb20-FP0v9zqI9iCWlZz3Sb30PxVDRsn&si=TA_aJSndk6jzHy41"
+yt-dlp --paths  /mnt/MarksHDD/Music_Marks/The_Beatles/  -f ba -x --audio-format mp3 -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "https://youtube.com/playlist?list=PLYq_mcte9NvDA2Xi5Qjl1DrH5LuDKDlAI&si=V6LyzEL6SD_OdS91"
+cd /run/media
+ls
+cd marks
+ls
+cd 9F4F-28D0/
+ls
+ls
+clear
+ls
+sudo rm -rf .Trash-1000/
+startx
+startx
+sudo xbps-install -Sun
+sudo xbps-install -Su
+sudo flatpak list
+sudo flatpak update
+flatpak list
+startx
+startx
+startx
+nmtui
+upower
+blueman-applet &
+sudo bluez
+sudo bluetoothctl
+ls /etc/sv
+ls /var/service/
+sudo ln -s /etc/sv/bluetoothd/ /var/service/
