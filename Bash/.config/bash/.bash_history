@@ -862,3 +862,67 @@ sudo bluetoothctl
 ls /etc/sv
 ls /var/service/
 sudo ln -s /etc/sv/bluetoothd/ /var/service/
+startx
+startx
+startx
+sudo xbps-install -Su
+sudo flatpak update
+sudo flatpak update
+sudo xbps-install -Su
+sudo flatpak install flathub com.brave.Browser
+ls /usr/share/themes
+ls /usr/share/icons
+cler
+sudo flatpak override --filesystem=/usr/share/themes
+sudo flatpak override --filesystem=/usr/share/icons
+sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --filesystem=$HOME/.icons
+ls .themes
+ls
+ls .themes
+ls
+cd .themes
+ls
+clear
+clear
+clear
+cd
+cd 
+ls
+claer
+sudo flatpak override --env=GTK_THEME=NumixSolarizedDarkCyan
+sudo flatpak override --reset
+sudo /var/lib/flatpak
+ls /usr/share/themes
+ls
+ls /usr/share/icons
+ls .config
+ls
+ll
+clear
+ls
+cd .config
+ls
+ll
+cd gtk-3.0/
+s
+ls
+cat settings.ini 
+sudo flatpak override --env=GTK_THEME=NumixSolarizedDarkCyan
+sudo flatpak override --env=GTK_THEME=
+sudo flatpak override --reset
+cat /var/lib/flatpak/overrides/global 
+ls
+ll
+clear
+ls
+ll
+ls
+llc
+ll
+clear
+ls
+ll
+clear
+htop
+sudo flatpak override --env=GTK_THEME=NumixSolarizedDarkCyan

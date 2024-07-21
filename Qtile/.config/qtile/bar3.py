@@ -73,18 +73,19 @@ bar = Bar([
             ),
         Clock(
             format = '󰸘 %Y-%m-%d %a %r',
-            background = solarized['black2'], 
+            background = solarized['black1'], 
         ),
         Battery(
             format = '{char} {percent:2.0%}',
+            background = solarized['black2'],
         ),
         Systray(
-            background=solarized['black2'],
+            background=solarized['black1'],
             padding = 5,
         ),
         ],
             margin=[0, 0, 0, 0],
-            background= solarized['black1'], 
+            background= solarized['black2'], 
             #gruvbox['bg0'],
             #'#00000000',
             opacity=1,
