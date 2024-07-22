@@ -15,15 +15,21 @@ from libqtile import qtile
 
 #Define programs for mouse callbacks opening
 def spawn_rofi():
-    qtile.cmd_spawn("rofi -show drun")
+    qtile.cmd_spawn("rofi -show combi -combi-modi drun,run -modi combi -show-icons")
 
 def spawn_powermenu():
     qtile.cmd_spawn("/home/marks/.config/rofi/powermenu/type-1/powermenu.sh")
 
 def spawn_missioncenter():
-    qtile.cmd_spawn("missioncenter")
+    qtile.cmd_spawn("missioncenter")    
 bar = Bar([
-           CurrentLayoutIcon(
+        TextBox(
+         text = '',
+         fontsize = 16,
+         foreground = solarized['green'],
+         mouse_callbacks = {'Button1': spawn_rofi, 'Button3': spawn_powermenu},
+        ),
+        CurrentLayoutIcon(
             scale = 0.7,
             background=solarized['black2'],
         ),

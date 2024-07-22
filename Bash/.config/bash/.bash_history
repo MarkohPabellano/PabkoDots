@@ -926,3 +926,43 @@ ll
 clear
 htop
 sudo flatpak override --env=GTK_THEME=NumixSolarizedDarkCyan
+night
+sudo cp /usr/share/themes/NumixSolarizedDarkCyan/ /home/marks/.themes
+sudo cp -R /usr/share/themes/NumixSolarizedDarkCyan/ /home/marks/.themes
+ls .themes
+sudo flatpak override --filesystem=~/.themes
+sudo flatpak override --filesystem=~/.icons
+ls .themes
+sudo swapon -s
+sudo swapon -a
+swapon --show
+startx
+nmtui
+nmtui
+fetch
+sudo xbps-install fastfetch
+fastfetch
+clear
+fastfetcch
+clear
+fastfetcch
+fastfetch
+fastfetch --list-logos
+fastfetch --void
+fastfetch --help
+fastfetch --logo
+fastfetch --logo-type
+fastfetch --logo-type void
+fastfetch print-logos
+fastfetch --print-logos
+ls
+clear
+kitten+themes
+kitten themes
+ls
+clear
+kitten themes
+ls
+fastfetch --print-logos
+sudo xbps-install pasystray
+/usr/local/bin/Obsidian-1.6.5.AppImage 

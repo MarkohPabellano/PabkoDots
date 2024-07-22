@@ -20,7 +20,8 @@ eval "$(starship init bash)"
 
 #--Progams--#
 #eval "$(zellij setup --generate-auto-start zsh)"
-neofetch
+#neofetch
+fastfetch
 
 #--HISTFILE--
 HISTSIZE=10000

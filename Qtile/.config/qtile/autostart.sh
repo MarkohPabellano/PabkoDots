@@ -1,5 +1,6 @@
 #!/bin/sh
 
+nm-applet &
 blueman-applet &
 #redshift -l -6.21462:106.84513 &
 
@@ -14,10 +15,9 @@ copyq &
 #/usr/bin/emacs --daemon &
 #emacsclient -c -a emacs &
 #megasync &
-#syncthing &
-#nm-applet &
+#syncthing 
 #mictray &
-#pasystray &
+pasystray &
 #dead-notification-center &
 #picom &
 
