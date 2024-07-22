@@ -21,6 +21,8 @@ pasystray &
 #dead-notification-center &
 #picom &
 
+/usr/local/bin/Obsidian-1.6.5.AppImage &
+
 #picom --experimental-backends & ##& disown
 #/usr/lib/xfce-polkit/xfce-polkit & ##& disown # start polkit agent from xfce
 #xfsettingsd &
