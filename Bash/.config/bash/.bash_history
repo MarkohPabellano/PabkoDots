@@ -966,3 +966,87 @@ ls
 fastfetch --print-logos
 sudo xbps-install pasystray
 /usr/local/bin/Obsidian-1.6.5.AppImage 
+neofetch
+kitty themes
+kitten themes
+clear
+fastfetch
+ls
+kitten themes
+sudo xbps-remove neofetch
+cowsay
+neofetch
+fastfetch --logo-color-1red
+fastfetch --logo-color
+fastfetch --logo-color -1
+fastfetch --logo-color-1
+$color
+$colors
+$
+fastfetch --print-logos
+sudo flatpak --update
+sudo flatpak update
+sudo flatpak remove blanket
+sudo rm -rf /usr/local/bin/Thorium_Browser_124.0.6367.218_AVX.AppImage 
+sudo xbps-install -Su
+startx
+sudo xbps-install -Sun
+sudo xbps-install -Su
+curl -f https://zed.dev/install.sh | sh
+zed
+startx
+sudo xbps-install xdg-desktop-portal
+cd /etc/sv
+ls
+cd /var/service
+ls
+sudo xbps-install xdg-desktop-portal-gtk
+cd /etc/sv
+ls
+cd
+cd
+sudo xbps-install xdg-desktop-portal-gtk
+sudo xbps-install xdg-desktop-portal-lxqt
+vim /usr/share/xdg-desktop-portal/portals
+vim /usr/share/xdg-desktop-portal/portals.conf 
+sudo xbps-remove xdg-desktop-portal-lxt
+sudo xbps-remove xdg-desktop-portal-lxqt
+sudo vim /usr/share/xdg-desktop-portal/portals.conf 
+sudo xbps-install xdg-desktop-portal-lxqt
+sudo vim /usr/share/xdg-desktop-portal/portals.conf 
+cd .config
+ls
+mkdir xdg-desktop-portal
+cd xdg-desktop-portal/
+;;s
+ls
+vim portals.conf
+cat portals.conf 
+sudo xbps-install xdg-desktop-portal-lxqt
+startx
+startx
+startx
+startx
+startx
+startx
+reboot
+sudo reboot
+startx
+sudo xbps-remove xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-lxqt
+sudo rm -rf /usr/local/bin/zed
+sudo rm -rf 
+sudo rm -rf $HOME/.local/bin/zed
+sudo rm -rf $HOME/.local/share/applications/dev.zed.Zed.desktop 
+sudo rm -rf $HOME/.local/zed.app/
+cat ~/.bashrc
+ls
+clear
+sudo flatpak install flathub dev.zed.Zed
+flatpak run dev.zed.Zed
+flatpak run dev.zed.Zed
+flatpak run dev.zed.Zed
+
+flatpak run dev.zed.Zed
+flatpak run dev.zed.Zed
+flatpak remove zed
+flatpak install flathub dev.zed.Zed
